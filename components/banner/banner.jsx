@@ -16,7 +16,11 @@ const Banner = () => {
       </div>
 
       <div className="xl:mx-auto text-black lg:w-1/2 md:pl-16 pt-4">
-        <p className="text-4xl md:text-5xl font-bold ">
+        <p
+          role="heading"
+          aria-level={2}
+          className="text-4xl md:text-5xl font-bold "
+        >
           Knowing the numbers is never enough.
         </p>
         <p className="text-lg mt-4">

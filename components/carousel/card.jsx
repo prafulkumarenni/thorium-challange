@@ -13,7 +13,9 @@ const Card = ({ image, heading, linkPath, linkText }) => {
         alt={linkText}
         className="mx-auto"
       />
-      <p className=" text-xl font-bold mt-4">{heading}</p>
+      <p role="heading" aria-level={3} className=" text-xl font-bold mt-4">
+        {heading}
+      </p>
       <div className="flex justify-center">
         <Link
           role="button"
