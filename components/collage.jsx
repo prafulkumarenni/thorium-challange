@@ -3,21 +3,21 @@ import React from "react";
 import image1 from "../public/assets/image1.jpg";
 import image2 from "../public/assets/image2.jpg";
 
-const ImageCollage = () => {
+const ImageCollage = ({ bannerHeading }) => {
   return (
     <div className="relative w-[200] h-[200px] m-3 bg-brandSecondary rounded-lg">
       <Image
         src={image1}
         width={300}
         height={100}
-        alt="Primary banner Image"
+        alt={bannerHeading}
         className="absolute -left-8 -top-8 rounded-lg shadow-lg shadow-gray-700"
       />
       <Image
         src={image2}
         width={300}
         height={500}
-        alt="Primary banner Image"
+        alt={bannerHeading}
         className="absolute rounded-lg -bottom-8 -right-8 shadow-lg shadow-gray-700"
       />
     </div>

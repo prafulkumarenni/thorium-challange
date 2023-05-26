@@ -8,7 +8,7 @@ const Banner = () => {
       <div className="md:h-[400px] lg:h-[330px] xl:h-[400px] bg-brandSecondary rounded-lg shadow-lg shadow-gray-700">
         <Image
           src={Image1}
-          alt="Banner Image"
+          alt="Knowing the numbers is never enough"
           height={400}
           width="100%"
           className="translate-x-5 -translate-y-5 rounded-lg"
@@ -16,9 +16,9 @@ const Banner = () => {
       </div>
 
       <div className="xl:mx-auto text-black lg:w-1/2 md:pl-16 pt-4">
-        <h1 className="text-4xl md:text-5xl font-bold ">
+        <p className="text-4xl md:text-5xl font-bold ">
           Knowing the numbers is never enough.
-        </h1>
+        </p>
         <p className="text-lg mt-4">
           Its about understanding the opportunities and challenges behind the
           numbers — and planning for a stronger future. Whats the right product

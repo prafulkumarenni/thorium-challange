@@ -10,12 +10,16 @@ const Card = ({ image, heading, linkPath, linkText }) => {
         src={image}
         width={172}
         height={172}
-        alt="Image 1"
+        alt={linkText}
         className="mx-auto"
       />
       <h2 className=" text-xl font-bold mt-4">{heading}</h2>
       <div className="flex justify-center">
-        <Link href={linkPath} className=" hover:text-gray-300 px-1">
+        <Link
+          role="button"
+          href={linkPath}
+          className=" hover:text-gray-300 px-1"
+        >
           {linkText}
         </Link>
         <Image src={ArrowSvg} alt="Arrow svg" />

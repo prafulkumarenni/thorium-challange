@@ -27,7 +27,7 @@ const LoginHelper = () => {
     <div className="lg:block">
       <div className="pl-8 flex items-center md:ml-6 lg:justify-end">
         <button className="bg-brandSecondary px-4 py-2 rounded-md text-sm font-medium text-gray-800 flex w-24 h-10 hover:underline">
-          <BsChevronDown className="mt-1 mr-1" />
+          <BsChevronDown role="presentation" className="mt-1 mr-1" />
           Log In
         </button>
         <div className="before:content before:text-gray-400 before:inline-block before:mx-2">

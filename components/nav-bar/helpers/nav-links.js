@@ -14,7 +14,11 @@ const NavLinks = () => {
           <Link
             href={link.path}
             className={`text-black px-3 py-2 rounded-md text-sm font-large hover:underline hover:font-bold
-                  ${pathName === link.path ? "font-extrabold" : "font-normal"}`}
+                  ${
+                    pathName === link.path
+                      ? "font-extrabold underline"
+                      : "font-normal"
+                  }`}
           >
             {link.linkText}
           </Link>
