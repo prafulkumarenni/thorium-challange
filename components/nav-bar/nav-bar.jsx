@@ -24,10 +24,11 @@ const NavBar = () => {
       </div>
       <div className="lg:hidden flex mr-5">
         <button
+          role="open mobile nav"
           className="text-brandSecondary hover:text-white focus:outline-none focus:text-white"
           onClick={toggleMobileNav}
         >
-          <GiHamburgerMenu size={24} />
+          <GiHamburgerMenu role="presentation" size={24} />
         </button>
       </div>
       {isMobileNavOpen && (

@@ -16,7 +16,7 @@ const BannerPrimary = ({ bannerPrimaryData }) => {
           </button>
         </div>
         <div className="lg:w-1/2 md:px-20 p-8 mt-8 md:mt-0">
-          <ImageCollage />
+          <ImageCollage bannerHeading={bannerHeading} />
         </div>
       </div>
     </div>

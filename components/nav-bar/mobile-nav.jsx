@@ -18,10 +18,11 @@ const MobileNav = ({ onClose, isOpen }) => {
             <Image height={70} width={70} src={LogoSvg} alt="Logo" />
           </div>
           <button
+            role="close button"
             className="text-gray-600 hover:text-gray-800 focus:outline-none"
             onClick={onClose}
           >
-            <IoClose size={24} />
+            <IoClose role="presentation" size={24} />
           </button>
         </div>
         <div>
