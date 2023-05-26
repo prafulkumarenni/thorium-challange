@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ArrowSvg from "../../public/assets/arrow.svg";
+import Link from "next/link";
 
 const Card = ({ image, heading, linkPath, linkText }) => {
   return (
@@ -14,10 +15,10 @@ const Card = ({ image, heading, linkPath, linkText }) => {
       />
       <h2 className=" text-xl font-bold mt-4">{heading}</h2>
       <div className="flex justify-center">
-        <a href={linkPath} className=" hover:text-gray-300 px-1">
+        <Link href={linkPath} className=" hover:text-gray-300 px-1">
           {linkText}
-        </a>
-        <Image src={ArrowSvg} alt="" />
+        </Link>
+        <Image src={ArrowSvg} alt="Arrow svg" />
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import { bannerPrimaryData } from "../components/banner/constants";
 
 export default function Home() {
   return (
-    <div className="grid grid-cols-1">
+    <div title="Home Page" className="grid grid-cols-1">
       <BannerPrimary bannerPrimaryData={bannerPrimaryData} />
       <Banner />
       <Carousel />
