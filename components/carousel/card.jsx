@@ -13,7 +13,7 @@ const Card = ({ image, heading, linkPath, linkText }) => {
         alt={linkText}
         className="mx-auto"
       />
-      <h2 className=" text-xl font-bold mt-4">{heading}</h2>
+      <p className=" text-xl font-bold mt-4">{heading}</p>
       <div className="flex justify-center">
         <Link
           role="button"
